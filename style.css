@@ -1,0 +1,46 @@
+header div.logo
+{
+   margin-top: 20px;
+}
+
+@media(max-width: 480px){
+	#myCarousel .item{height:210px}
+	#slide1 {
+background: url('images/s-1.jpg') top center no-repeat;
+	}
+	#slide2 {
+background: url('images/s-2.jpg') top center no-repeat;
+	}
+	#slide3 {
+background: url('images/s-3.jpg') top center no-repeat;
+	}
+
+}
+@media (max-width: 768px) {
+	#myCarousel .item{height:400px }
+	#slide1 {
+background: url('images/m-1.jpg') top center no-repeat;
+	}
+	#slide2 {
+background: url('images/m-2.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/m-3.jpg') top center no-repeat;
+	}
+}
+@media (min-width:768px) {
+	#myCarousel .item{height:400px} 
+	#slide1 {
+        background: url('images/1.jpg') top center no-repeat;
+	}
+	#slide2 {
+background: url('images/2.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/3.jpg') top center no-repeat;
+	}
+}
+form {
+	padding: 10px 20px 12px 10px;
+	
+}
