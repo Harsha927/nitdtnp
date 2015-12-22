@@ -3,24 +3,23 @@
 <head>
      <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>T&P Cell NITD</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="jquery.js"></script>
-	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<script type="text/javascript" src="js\jquery.js"></script>
+	<script type="text/javascript" src="js\bootstrap.js"></script>
+	<!-- Latest compiled and minified CSS 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 	
 </head>
-<body>
+<body class="container">
 <header>
     <nav class="navbar navbar-inverse navbar-static-top">
      <div class="logo">
-        <img src="images/TNP_LOGO.png" class="img-responsive">
+        <img src="home\images\TNP_LOGO.png" class="img-responsive">
     </div>
   <div class="container-fluid">
     <div class="navbar-header">
@@ -40,7 +39,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#">vission&mission</a></li>
             <li><a href="#">Director's message</a></li>
-            <li><a href="#">TPO message</a></li>
+            <li><a href="#">TPO message </a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -48,8 +47,8 @@
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">procedure</a></li>
-            <li><a href="#">placement policy</a></li>
-            <li><a href="#">rules</a></li>
+            <li><a href="statistics\statatistc.html">placement statatistc</a></li>
+            <li><a href="past recruiters\past recuiters.htm">past recuiters</a></li>
           </ul>
         </li>
          <li class="dropdown">
@@ -95,10 +94,10 @@
           </ul>
         </li>
         <li><a href="#">Contact Us</a></li>
-        <li> <form method="post" action="#">
+        <!-- <li> <form method="post" action="#">
        	<button><a href="#"><span class="glyphicon glyphicon-search"></span></a></button>
        	<input type="text" name="search" value="search">
-       </form></li>
+       </form></li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -108,9 +107,9 @@
   </div>
 </nav>
 </header>
-<div class="row">
+<div class="row" id="bor">
    <div class="col-md-6" >
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center" height="auto">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
     <!-- indicators-->
     	<ol class="carousel-indicators">
     		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -138,7 +137,7 @@
 	</div>
     </div>
      <div class="col-md-4 col-md-offset-2">
-         <marquee scrollamount="6" scrolldelay="85" direction="up" loop="-1" behavior="scroll" onmouseover="stop();" onmouseout="start();" width="80px" >
+ <marquee scrollamount="6" scrolldelay="100" direction="up" loop="-1" behavior="scroll" onmouseover="stop();" onmouseout="start();">
         <a href="#">event 1</a></br>
         <a href="#">event 2</a></br>
         <a href="#">event 3</a></br>
@@ -146,5 +145,32 @@
 		</marquee>
 		</div>
 </div>
+<footer class="site-footer">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <h5>Contact Address</h5>
+      <address >
+        Training and Placement Section, NIT, Delhi-110040, INDIA<br>
+        Phone: +91-011-1111111 | Telefax : 145214521452
+      </address>
+  </div>
+ </div>
+  
+  <div class="bottom-footer">
+    <div class="col-md-5">© All Rights reserved.</div>
+    <div class="col-md-5 col-md-offset-2" >
+      <ul class="footer-nav">
+        <li><a href="#">Legal Disclaimer</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">webteam</a></li>
+
+      </ul>
+    </div>
+    
+  </div>
+</footer>
+
 </body>
 </html>
