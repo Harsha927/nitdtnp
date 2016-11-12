@@ -4,7 +4,6 @@
      <meta name="viewport" content="width=device-width,initial-scale=1.0">
      <!--<meta http-equiv="content-type" content="text/html; charset=UTF-8">-->
      <meta charset="UTF-8">
-	<title>T&P Cell NITD</title>
 	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css\style.css">
 	<script type="text/javascript" src="js\jquery.js"></script>
@@ -17,11 +16,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 	
 </head>
-<body>
-<div class="container">
+<body class="container">
 <header>
     <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="row">
+     <div class="row">
      <div class="logo col-md-5">
         <img src="images\TNP_LOGO.png" class="img-responsive">
     </div>
@@ -45,7 +43,17 @@
    </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li><a href="tnp.htm">Home</a></li>
+       <!-- <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">vission&mission</a></li>
+            <li><a href="#">Director's message</a></li>
+            <li><a href="#">TPO message </a></li>
+          </ul>
+        </li> -->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">placement
           <span class="caret"></span></a>
@@ -63,7 +71,7 @@
             <li><a href="programs.htm">programs</a></li>
           </ul>
         </li>
-         <li class="dropdown">
+         <li class="dropdown active">
           <a class="dropdown-toggle" data-toggle="dropdown" href="whynitd.htm">WHY@NITD
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -111,81 +119,30 @@
   </div>
 </nav>
 </header>
-<div class="container">
-<div class="row">
-   <div class="col-md-6" >
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center" width="auto">
-    <!-- indicators-->
-    	<ol class="carousel-indicators">
-    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    		<li data-target="#myCarousel" data-slide-to="1"></li>
-    		<li data-target="#myCarousel" data-slide-to="2"></li>
-    	</ol>
-    <!-- wrapper for slides -->
-           <div class="carousel-inner" role="listbox">
-           	<div class="item active" id="slide1">
-           	</div>
-           	<div class="item" id="slide2">
-           	</div>
-           	<div class="item" id="slide3">
-           	</div>
-           </div>
-      <!-- left and right controls -->
-             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-             	<span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
-             	<span class="sr-only">previous</span>
-             </a>
-             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-             	<span class="glyphicon glyphicon-chevron-right" ariahidden="true"></span>
-             	<span class="sr-only">next</span>
-             </a>
-	</div>
-    </div>
-     <div class="col-md-4  col-md-offset-1 mar">
-     <img src="images/marquee-title.jpg">
- <marquee scrollamount="4" scrolldelay="100" direction="up" loop="-1" behavior="scroll" onmouseover="stop();" onmouseout="start();" width="360px" align="left" height="300px">
-        <a href="#">event 1</a></br>
-        <a href="#">event 2</a></br>
-        <a href="#">event 3</a></br>
-        <a href="#">event 4</a>
-		</marquee>
-		</div>
-</div>
-<div class="row">
-   <div class="col-md-6">
-  <h5 class="bt-title" style="margin-bottom:0px;border-bottom:0px">Message from Director</h5>
-  <p style="border-top:0px solid black;">
-  <img id="i-19" src="images/director-1.jpg">
-  <!--<p id="p-19" >
-    With learning as an ongoing process, excellence is just a constant journey in education. At the National Institute of Technology Delhi, achieving academic excellence at every step has been our forte right from its inception.As we spread our wings of knowledge, the Institute has already begun its journey of excellence with advanced learning and research endeavours in various disciplines of Engineering, Science and Technology, Management, and Humanities and Social Sciences.Aimed at garnering refined intellect with creative and innovative minds, NIT Delhi is sincerely committed to accumulating the best talents of learners and instructors from across the globe and thus imparting holistic education along with the best practice of superior professional ethics.In continuation with our journey of academic excellence, the fraternity at NIT Delhi is expanding in research and development with its mission to groom brighter and highly intellectual minds.We are hopeful to develop our permanent campus soon with state-of-the-art infrastructure and advanced facilities. With these milestones and a lot more to achieve in the near future, i cordially invite the recruiting organisations to find the best who match their needs.</br>
-        Prof. Ajay K Sharma</br>
-        Director</br>
-        NIT Delhi</br>
-        </p>
-
-  </p>
-  </div>-->
-  </p>
-  </div>
-    <div class="col-md-6">
-	<h5 class="bt-title"style="margin-bottom:0px;border-bottom:0px">Message from TPO</h5>
-	<p style="border-top:0px solid black">
-  <img src="images/tpo-1.jpg">
-        <!--NIT Delhi has been able to carve a niche for itself among the premier institutes in the past few years. Established as an institute of National Importance, NIT Delhi aims to achieve international distinction for commitment, creativity, innovation and excellence as the standard to cultivate knowledge and research activities to develop technologies for the society. The institute has the finest faculty and the best students for its Bachelors, Masters and Doctoral programmes with a rich tradition of pursuing excellence in terms of academic programmes and research infrastructure. The students are not only exposed to challenging research based academics but also a host of sports, cultural and organizational activities on its vibrant campus.The institute offers plethora of placement opportunities to its students graduating with Bachelors of Technology and Masters of Technology degrees. Though very young, NIT Delhi is on its pathway of progress and has been able to attract some big names in the corporate world.Our partnership with recruiters and the alumni of NIT Delhi is greatly valued and we hope to continue making this endeavor more productive and positive. On behalf of NIT Delhi, I would like to invite the recruiting organizations and graduating students in determining the foremost match between their needs and capabilities.</br>
-
-        Wish best wishes</br>
-        Dr. Kapil Kumar</br>
-        TPO</br>
-        NIT DELHI</br>-->
-
-	</p>
-</div>
-</div>
-</div>
+<h2>Student Life at Campus<h2>
+<blockquote>
+NIT Delhi aims at achieving holistic development for each and every student. Apart from being thoroughly involved in their academics, students are also indulged in various extracurricular activities that provides them with immense opportunities to showcase their talent in many sundry fields; from technical to artistic skills. The institute hosts multitude of inter branch events and cultural and technical fest that are solely managed by its students that provides them with work experience crucial for them to excel in their career.</blockquote><br>
+<h3>Clubs :</h3>
+<p>Taking great interest in the overall development of students, the college welcomes the knack of students and encourages them to participate in various inter college and inter branch events providing them with a platform to put forward their hidden abilities. The outstanding performances of the students at various levels is evident from the existing societies : dance, music, dramatics, photography, arts, tech, debating, gaming, quizzing, and workshops formed. All these clubs are run exclusively by the students. Timely meetings of the clubs and active participation of the scholars ensure the proper functioning and the execution of the purpose of their existence.</p>
+<img src="">
+<img src="">
+</br>
+<h3>Social Reformation Cell :</h3>
+<p>The social reformation cell, established in 2014 is a voluntary organization with the vision to revive the condition of the nearby villages by providing teaching instruction in the primary and secondary schools by the students of the college. It also aims at identifying other social issues relating to health and education of the children and women empowerment, thus contributing to the development of the nation.Recently tree plantation drive and various other competitions were organized on the occasion of ozone day.</p><br>
+<h3>Cultural activities:</h3>
+<p>NIT Delhi offers a holistic lifestyle for the student community. Various clubs and committees are functional in the campus for students with varied interests in fields of literature, technology, culture and sports. Many different events are organized by these clubs during a semester. 
+‘Kickstarters’ is an inaugural event for every new batch of B.Tech students organized by Alphaz: the Literary and Debating Society of NIT Delhi. It gives students an opportunity to get a taste of college life and interact with one another.
+In addition to this, we have had many events organized by the Dramatics club, Dance club and the Music society such as Aharya, I love the 90s, and Karaokes, respectively. These exhilarating events have definitely provided the students some respite from their regular academic schedule. Furthermore, NIT Delhi hosted its introductory cultural night, Echoes’14, followed by its cultural festival Saptrang’15. Both events were of 
+immediate thrill and success within the college.</p>
+<img src="images/ainve2.jpg">
+<img src="images\ainve6.jpg">
+<br>
+<h3>Sports:</h3>
+<p>The institute hosts and participates in Zeal, the annual sports festival. Students eagerly await the festival as it provides them with the opportunity to showcase their talent in various outdoor and indoor sports. Scholars are always encouraged to participate in the inter-NIT and other National sports tournaments.</p><br>
 <footer class="site-footer">
   <div class="bottom-footer">
     <div class="col-md-5"><p>Copyright © 2013 - All Rights Reserved - <a href="#">NIT Delhi</a></p></div>
-    <div>
+    <div class="col-md-" >
       <ul class="footer-nav" style="text-align:right">
         <li><a href="#">Legal Disclaimer</a></li>
         <li><a href="#">Feedback</a></li>
